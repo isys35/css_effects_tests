@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+body {
+    color: white;
+    font-size: 300px;
+}
+
+.blink-letter-1 {
+    animation: blinkingText 0.3s ease-in-out 0.1s;
+}
+
+.blink-letter-2 {
+    animation: blinkingText 0.3s ease-in-out 0.06s;
+}
+.blink-letter-3 {
+    animation: blinkingText 0.3s ease-in-out 0.28s;
+}
+
+.blink-letter-4 {
+    animation: blinkingText 0.3s ease-in-out 0.08s;
+}
+
+.blink-letter-5 {
+    animation: blinkingText 0.3s ease-in-out 0.08s;
+}
+
+
+
+
+@keyframes blinkingText {
+    0% {color: #ffffff}
+    13% {color: #ffffff}
+    25% {color: transparent}
+    35% {color: transparent}
+    47% {color: #ffffff}
+    59% {color: #ffffff}
+    75% {color: transparent}
+    81% {color: transparent}
+    95% {color: #ffffff}
+    100% {color: #ffffff}
+}
