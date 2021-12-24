@@ -48,7 +48,9 @@ h1 {
 }
 
 .news-details {
-    display: inline-block;
-    margin: 0 auto 0 auto;
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: 0;
 }
 
