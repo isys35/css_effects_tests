@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header, footer{
+    background-color: yellow;
+    padding: 30px;
+}
+
+main{
+    padding: 30px;
+}
+
+
+div.service{
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+
+.selected{
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
