@@ -71,4 +71,29 @@ nav li a {
     text-decoration: none;
 }
 
-.add
+.additional-content img {
+    width: 500px;
+    float: left;
+    padding-right: 25px;
+}
+
+.additional-content p {
+    color: rgb(82, 82, 82);
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+footer {
+    background-color: rgb(51, 51, 51);
+}
+
+footer p {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: rgb(131, 131, 131);
+    text-align: right;
+    font-size: 12px;
+}
