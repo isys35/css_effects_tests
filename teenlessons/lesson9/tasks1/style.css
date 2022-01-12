@@ -1,0 +1,19 @@
+.move-to {
+    display: inline-block;
+    background-color: lightblue;
+    color: black;
+    text-decoration: none;
+    padding-left: 26px;
+    line-height: 64px;
+}
+
+.move-to::after {
+    content: '>';
+    display: inline-block;
+    width: 59px;
+    height: 64px;
+    background-color: rgb(102, 157, 175);
+    text-align: center;
+    color: #ffff;
+    margin-left: 26px;
+}
