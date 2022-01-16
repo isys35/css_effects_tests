@@ -102,13 +102,24 @@ li {
     display: inline-block;
     font-size: 20px;
     border: 2px solid #C08D5D;
+    padding-left: 15px;
+    line-height: 60px;
+    margin-bottom: 40px;
 }
 
 .details::after {
-    content: "";
+    content: url('../images/arrow.svg');
     display: inline-block;
-    position: absolute;
+    margin-left: 15px;
     width: 60px;
     height: 60px;
     background-color: #C08D5D;
+    text-align: center;
+}
+
+.more {
+    display: block;
+    width: 35px;
+    margin: auto;
+    margin-bottom: 15px;
 }
