@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    background-color: black;
+    font-family: 'IBM Plex Mono', 'Open Sans', 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contacts-section {
+    border: white solid 3px;
+    margin-top: 34px;
+}
+
+h1.title-fio {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 62px;
+    width: 518px;
+    margin-top: 210px;
+    margin-left: 110px;
+    margin-bottom: 25px;
+}
+
+h2.title-specialization {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
+    margin-left: 110px;
+    margin-bottom: 70px;
+}
+
+.contacts {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    margin-left: 148px;
+    margin-bottom: 327px;
+}
+
+.contacts li {
+    margin-bottom: 20px;
+}
+
+.contact-title::after {
+    content: ">";
+    margin-left: 15px;
+}
+
+.contacts a {
+    color: white;
+}
