@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header,
+footer {
+    background-color: aquamarine;
+    padding: 50px 0;
+}
+
+header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+}
+
+p {
+    font-size: 22px;
+}
+
+main {
+    padding: 170px 0 50px;
+}
+
+#last-link {
+    color: blue;
+}
+
+.service p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.service {
+    background-color: rgba(255, 0, 0, .6);
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    /* элемент остаётся в потоке, но появляются новые свойства: top, right, bottom, left, z-index,
+        позволяющие сдвигать элемент относительно его прежнего места
+    */
+    top: 30px;
+    left: 50px;
+    z-index: -1;
+}
+
+.service a {
+    color: #fff;
+}
+
+.team {
+    background-color: yellow;
+    padding: 20px;
+    position: relative;
+}
+
+.pic {
+    position: absolute;
+    /* элемент выпадает из потока, но появляются новые свойства: top, right, bottom, left, z-index
+       Мы можем задать расположение элемента от окна браузера или от родителя, если родителю задать
+       position.
+    */
+    top: 30px;
+    left: 50px;
+}
+
+.callme {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: fixed;
+    /* элемент выпадает из потока, но появляются новые свойства: top, right, bottom, left, z-index */
+    right: 0;
+    top: 0;
+}
+
+.popup {
+    width: 400px;
+    padding: 20px;
+    background-color: yellow;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* margin-top: -100px;
+    margin-left: -200px; */
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 10px black;
+}
+
+.close {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    padding: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+}
