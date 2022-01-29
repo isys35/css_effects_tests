@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header,
+footer {
+    background-color: aquamarine;
+    padding: 50px 0;
+}
+
+header {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+p {
+    font-size: 22px;
+}
+
+main {
+    padding: 50px 0;
+}
+
+#last-link {
+    color: blue;
+}
+
+.service p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.service {
+    background-color: rgba(255, 0, 0, .6);
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    /* элемент остаётся в потоке, но появляются новые свойства: top, right, bottom, left, z-index,
+        позволяющие сдвигать элемент относительно его прежнего места
+    */
+    top: 30px;
+    left: 50px;
+    z-index: -1;
+}
+
+.service a {
+    color: #fff;
+}
+
+.team {
+    background-color: yellow;
+    padding: 20px;
+    position: relative;
+}
+
+.pic {
+    position: absolute;
+    /* элемент выпадает из потока, но появляются новые свойства: top, right, bottom, left, z-index */
+    top: 30px;
+    left: 50px;
+}
