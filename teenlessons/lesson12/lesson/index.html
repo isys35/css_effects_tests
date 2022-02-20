@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="#">
+        <label>Ваше имя: </label>
+        <input type="text" name="first-name" value="Дима" readonly>
+        <label>Ваш пароль: </label>
+        <input type="password" name="password">
+        <label>Дата:</label>
+        <input type="date" name="date">
+        <label>Любимый цвет:</label>
+        <input type="color" required>
+        <label>Рейтинг:</label>
+        <input type="range" min="0" max="5">
+        <label>Кол-во комнат:</label>
+        <input type="number" min="0" max="5" disabled>
+        <label>Email:</label>
+        <input type="emai" placeholder="test@gmail.com">
+        <div>
+            <label for="agree">Я согласен с условием договора:</label>
+            <input type="checkbox" id="agree" checked>
+        </div>
+        <div>
+            <label>Хотите пить?</label>
+            <label>Да
+                <input type="radio" name="drink">
+            </label>
+            <label>Нет
+                <input type="radio" name="drink">
+            </label>
+            <label>Не знаю
+                <input type="radio" name="drink" checked>
+            </label>
+        </div>
+        <p>Выберите город для проживания:</p>
+        <select name="city">
+            <option value="" hidden>Город</option>
+            <option value="Варшава">Варшава</option>
+            <option value="Минск" selected>Минск</option>
+            <option value="Сочи">Сочи</option>
+            <option value="Амстердам">Амстердам</option>
+        </select>
+        <textarea name="message" placeholder="ваше сообщение"></textarea>
+        <!-- <input type="submit" value="Заказать"> -->
+        <button>Заказать</button>
+    </form>
+</body>
+
+</html>
