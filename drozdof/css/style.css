@@ -14,6 +14,38 @@ body {
     color: #FFFFFF;
 }
 
+header {
+    margin-top: 30px;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu__item {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+    font-size: 50px;
+    padding: 20px;
+    margin-right: 700px;
+}
+
+.container-outer {
+    max-width: 1600px;
+    margin: auto;
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
@@ -21,7 +53,7 @@ body {
 
 .contacts-section {
     border: white solid 3px;
-    margin-top: 34px;
+    margin-top: 70px;
     background-image: url("../images/background_image.svg");
     background-repeat: no-repeat;
     background-position: 75% 85%;
@@ -33,7 +65,7 @@ h1.title-fio {
     font-size: 48px;
     line-height: 62px;
     width: 518px;
-    margin-top: 210px;
+    margin-top: 40px;
     margin-left: 110px;
     margin-bottom: 25px;
 }
