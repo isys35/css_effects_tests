@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f6f9;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+.main-title {
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title {
+    padding-top: 10px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+form {
+    padding-top: 30px;
+    width: 300px;
+    margin: auto;
+}
+
+input {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.birthday-title {
+    color: gray;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+select {
+    padding: 5px;
+    outline: none;
+    color: gray;
+    margin-right: 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+select[name="day"],
+select[name="year"] {
+    width: 30%;
+}
+
+select[name="year"] {
+    margin-right: 0px;
+}
+
+select[name="month"] {
+    width: 34%;
+}
+
+.register,
+.facebook {
+    display: block;
+    color: #ffff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.or {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.or::after,
+.or::before {
+    content: "";
+    display: inline-block;
+    border-bottom: 1px solid gray;
+    width: 25px;
+    margin: 2px 5px;
+}
+
+.register {
+    margin-top: 25px;
+    background-color: green;
+}
+
+.facebook {
+    background-color: blue;
+}
