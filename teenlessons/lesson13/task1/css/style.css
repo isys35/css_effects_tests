@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    padding: 30px;
+    background-color: white;
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 35px;
+}
+
+nav a {
+    font: 15px Arial;
+    text-decoration: none;
+    color: #545454;
+    display: block;
+    padding-bottom: 4px;
+}
+
+.logo {
+    font-family: Georgia;
+    font-size: 32px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #545454;
+    letter-spacing: 0.06em;
+}
+
+.slogan {
+    font: 400 13px Arial;
+    letter-spacing: 0.1em;
+}
+
+.active {
+    border-bottom: #F1CDB3 solid 3px;
+}
