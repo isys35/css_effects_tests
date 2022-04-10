@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'M PLUS 1p', sans-serif;
+    color: #30233D;
+}
+
+.container {
+    width: 1146px;
+    margin: auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 53px 0;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 38px;
+    color: #0F044C;
+}
+
+header nav ul {
+    display: flex;
+    width: 462px;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header nav li a {
+    font-weight: 800;
+    color: #080800;
+    font-size: 14.4px;
+    text-decoration: none;
+}
+
+.contact {
+    display: inline-block;
+    color: #30233D;
+    font-weight: 800;
+    font-size: 14.4px;
+    line-height: 35px;
+    text-decoration: none;
+    position: relative;
+}
+
+.contact::before {
+    content: url(../images/phone.svg);
+    position: absolute;
+    left: -36px;
+}
+
+.title-section {
+    background-image: url(../images/background.png);
+    padding-top: 14.4px;
+    background-size: cover;
+    color: #FCFCFC;
+}
+
+.title-section h1 {
+    padding-top: 126px;
+    font-size: 54px;
+    line-height: 75px;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+
+.title-section p {
+    padding-bottom: 115px;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.text-info h2 {
+    margin-top: 72px;
+    color: #A22F32;
+    font-size: 12.6px;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+
+.text-info p {
+    font-size: 27px;
+    font-weight: 500;
+    color: #30233D;
+    width: 870px;
+}
+
+.text-info {
+    margin-bottom: 60px;
+}
+
+.front-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 58px;
+}
+
+.front-info__item {
+    padding: 39px 36px;
+    border: 1px solid #F61067;
+    flex-basis: 362px;
+}
+
+.front-info__item img {
+    margin-bottom: 33px;
+}
+
+.front-info__item h2 {
+    margin-bottom: 13px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 40px;
+}
+
+.front-info__item p {
+    font-weight: 400;
+    font-size: 16.2px;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+footer {
+    background-color: #080800;
+    padding-bottom: 66px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.code {
+    padding-top: 84px;
+}
+
+.copyright {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.7px;
+    line-height: 19px;
+    color: #FCFCFC;
+}

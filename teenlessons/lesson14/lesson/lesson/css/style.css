@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-parent {
+    background-color: aqua;
+    min-height: 100vh;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    /* Включаем флекс модель */
+    flex-direction: row;
+    /* Ось x слева направо */
+    /* flex-direction: row-reverse;
+    /* Ось x справа налево */
+    /* flex-direction: column;
+    /* Ось y сверху вниз */
+    /* flex-direction: column-reverse;
+    /* Ось y снизу вверх */
+    justify-content: flex-start;
+    /* Выравнивание и распределение по основной оси */
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: stretch;
+    /* align-items: center;
+    align-items: flex-start;
+    align-items: flex-end; */
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-content: space-around;
+}
+
+.flex-item {
+    background-color: azure;
+    padding: 20px;
+    border: 1px solid black;
+    /* width: 20%; */
+    /* размер элемента по основной оси */
+    flex-basis: 23%;
+}
+
+.custom {
+    order: -1;
+    flex-grow: 1;
+}
+
+.first {
+    flex-grow: 2;
+}
