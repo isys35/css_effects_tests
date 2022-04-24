@@ -6,82 +6,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Shelter</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="container flex-wrapper">
-            <div class="logo-wrapper">
-                <a class="logo" href="#">Cozy House</a>
-                <p class="slogan">Shelter for pets in Boston</p>
+    <section class="main">
+        <header>
+            <div class="container flex-wrapper">
+                <div class="logo-wrapper">
+                    <a class="logo" href="#">Cozy House</a>
+                    <p class="slogan">Shelter for pets in Boston</p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a class="active" href="index.html">About the shelter</a></li>
+                        <li><a href="our-pets.html">Our pets</a></li>
+                        <li><a href="#">Help the shelter</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#">About the shelter</a></li>
-                    <li><a class="active" href="#">Our pets</a></li>
-                    <li><a href="#">Help the shelter</a></li>
-                    <li><a href="#">Contacts</a></li>
-                </ul>
-            </nav>
+        </header>
+        <div class="main__info description">
+            <h2 class="description__title">
+                Not only people need a house
+            </h2>
+            <p class="description__text">
+                We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!
+            </p>
+            <a href="#" class="description__link btn1">Make a friend</a>
         </div>
-    </header>
-    <main>
-        <div class="container">
-            <h1>Our friends <br>who are looking for a house</h1>
-            <div class="pets">
-                <div class="pet-card">
-                    <img src="images/pets-katrine.png" alt="katrine">
-                    <p>Katrine</p>
-                    <a href="#" class="learn-more">Learn More</a>
-                </div>
-                <div class="pet-card">
-                    <img src="images/pets-katrine.png" alt="katrine">
-                    <p>Katrine</p>
-                    <a href="#" class="learn-more">Learn More</a>
-                </div>
-                <div class="pet-card">
-                    <img src="images/pets-katrine.png" alt="katrine">
-                    <p>Katrine</p>
-                    <a href="#" class="learn-more">Learn More</a>
-                </div>
-                <div class="pet-card">
-                    <img src="images/pets-katrine.png" alt="katrine">
-                    <p>Katrine</p>
-                    <a href="#" class="learn-more">Learn More</a>
-                </div>
-                <div class="pet-card">
-                    <img src="images/pets-katrine.png" alt="katrine">
-                    <p>Katrine</p>
-                    <a href="#" class="learn-more">Learn More</a>
-                </div>
-                <div class="pet-card">
-                    <img src="images/pets-katrine.png" alt="katrine">
-                    <p>Katrine</p>
-                    <a href="#" class="learn-more">Learn More</a>
-                </div>
-                <div class="pet-card">
-                    <img src="images/pets-katrine.png" alt="katrine">
-                    <p>Katrine</p>
-                    <a href="#" class="learn-more">Learn More</a>
-                </div>
-                <div class="pet-card">
-                    <img src="images/pets-katrine.png" alt="katrine">
-                    <p>Katrine</p>
-                    <a href="#" class="learn-more">Learn More</a>
-                </div>
-            </div>
-            <div class="pets-navigator">
-                <button class="pets-nav-button disabled">
-                    << </button>
-                <button class="pets-nav-button disabled">
-                            < </button>
-                <button class="pets-nav-button active-page">1</button>
-                <button class="pets-nav-button active-nav">></button>
-                <button class="pets-nav-button active-nav">>></button>
-            </div>
+    </section>
+    <section class="about">
+        <img src="images/about-pets.png" alt="about pets" class="about__image">
+        <div class="about__info">
+            <h3 class="about__title">About the shelter “Cozy House”</h3>
+            <p class="about__text">Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.</p>
+            <p class="about__text">We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken
+                by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone.</p>
         </div>
-    </main>
+    </section>
+    <section class="our-friends">
+        <h3 class="our-friends__title">
+            Our friends who are looking for a house
+        </h3>
+        <div class="our-friends__slider slider">
+            <div class="slider__left"></div>
+            <div class="slider__items">
+                <div class="slider__item pet-card">
+                    <img src="images/pets-katrine.png" alt="katrine">
+                    <p>Katrine</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="slider__item pet-card">
+                    <img src="images/pets-jennifer.png" alt="jenifer">
+                    <p>Jennifer</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="slider__item pet-card">
+                    <img src="images/pets-woody.png" alt="woody">
+                    <p>Woody</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="slider__right"></div>
+        </div>
+        <a href="#" class="our-friends__btn btn1">Get to know the rest</a>
+    </section>
+    <section class="how-help">
+        <div class="how-help__item help-method">
+            <img src="images/icon-pet-food.svg" alt="pet food" class="help-method__image">
+            <p class="help-method__title">Pet food</p>
+        </div>
+        <div class="how-help__item help-method">
+            <img src="images/icon-transportation.svg" alt="transportation" class="help-method__image">
+            <p class="help-method__title">Transportation</p>
+        </div>
+        <div class="how-help__item help-method">
+            <img src="images/icon-toys.svg" alt="toys" class="help-method__image">
+            <p class="help-method__title">Toys</p>
+        </div>
+        <div class="how-help__item help-method">
+            <img src="images/icon-bowls-and-cups.svg" alt="bowls and cups" class="help-method__image">
+            <p class="help-method__title">Bows and cups</p>
+        </div>
+        <div class="how-help__item help-method">
+            <img src="images/icon-shampoos.svg" alt="shampoos" class="help-method__image">
+            <p class="help-method__title">Shampoos</p>
+        </div>
+        <div class="how-help__item help-method">
+            <img src="images/icon-vitamins.svg" alt="vitamins" class="help-method__image">
+            <p class="help-method__title">Vitamins</p>
+        </div>
+        <div class="how-help__item help-method">
+            <img src="images/icon-medicines.svg" alt="medicines" class="help-method__image">
+            <p class="help-method__title">Medicines</p>
+        </div>
+        <div class="how-help__item help-method">
+            <img src="images/icon-collars-leashes.svg" alt="collars / leashes" class="help-method__image">
+            <p class="help-method__title">Collars / leashes</p>
+        </div>
+        <div class="how-help__item help-method">
+            <img src="images/icon-sleeping-area.svg" alt="sleeping areas" class="help-method__image">
+            <p class="help-method__title">Sleaping areas</p>
+        </div>
+    </section>
+    <section class="donation">
+        img.donation__img+.donation__info>h3.donation__title+p.do
+    </section>
     <footer>
         <div class="container flex-wrapper">
             <div>
