@@ -1,0 +1,247 @@
+:root {
+    --color-primary: #F1CDB3;
+    --color-dark-s: #CDCDCD;
+    --color-dark-l: #545454;
+    --color-dark-xl: #4C4C4C;
+    --color-light-l: #F6F6F6;
+    --color-dark-m: #B2B2B2;
+}
+
+.main {
+    background-image: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
+    max-height: 100vh;
+    padding: 0;
+}
+
+header {
+    background-color: inherit;
+    margin-bottom: 223px;
+    padding: 30px 0;
+}
+
+.logo {
+    color: var(--color-primary);
+}
+
+.slogan {
+    color: white;
+}
+
+nav li a {
+    color: white;
+}
+
+.description {
+    max-width: 460px;
+}
+
+.description__title {
+    color: white;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    max-width: 310px;
+    margin-bottom: 42px;
+}
+
+.description__text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: var(--color-dark-s);
+    margin-bottom: 41px;
+}
+
+.btn1 {
+    padding: 15px 45px;
+    background-color: #F1CDB3;
+    border-radius: 100px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    padding: 80px 0 100px;
+}
+
+.main .container {
+    min-height: 100vh;
+    background-image: url(../images/start-screen-puppy.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+.about .container {
+    display: flex;
+    justify-content: center;
+}
+
+.about__image {
+    margin-right: 125px;
+}
+
+.about__info {
+    flex-basis: 424px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about__title {
+    color: var(--color-dark-l);
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+
+.about__text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: var(--color-dark-xl);
+}
+
+.our-friends {
+    background-color: var(--color-light-l);
+    text-align: center;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: var(--color-dark-l);
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider__nav {
+    width: 52px;
+    height: 52px;
+    border: 2px solid var(--color-primary);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.slider__left,
+.slider__right {
+    background-image: url(../images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.slider__right {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.slider__items {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    margin-bottom: 60px;
+}
+
+.how-help__flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 281px;
+    align-content: space-between;
+}
+
+.how-help__item {
+    display: inline-block;
+    text-align: center;
+    padding: 0 60px;
+}
+
+.help-method {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    color: var(--color-dark-l);
+}
+
+.help-method__image {
+    margin-bottom: 30px;
+}
+
+.donation {
+    background-color: var(--color-light-l);
+}
+
+.donation .container {
+    display: flex;
+    justify-content: center;
+}
+
+.donation__img {
+    margin-right: 15px;
+}
+
+.donation__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.donation__title {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: var(--color-dark-l);
+    width: 300px;
+}
+
+.donation__name-bank {
+    color: var(--color-dark-l);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+}
+
+.donation__card {
+    background-color: var(--color-primary);
+    color: var(--color-dark-l);
+    border-radius: 9px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    padding: 10px 15px;
+    width: 349px;
+}
+
+.donation__card::before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 100%;
+    background-image: url(../images/credit-card.svg);
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.donation__additional-info {
+    color: var(--color-dark-m);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    width: 380px;
+}
